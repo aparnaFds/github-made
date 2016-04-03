@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="18" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44086" started-at="2016-04-02T14:30:21Z" finished-at="2016-04-02T14:31:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44086" started-at="2016-04-02T14:30:21Z" finished-at="2016-04-02T14:31:05Z">
+      <class name="AppPackage.Main_file">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:AppPackage.Main_file@256216b3]" name="launchApp" duration-ms="16980" started-at="2016-04-02T20:00:21Z" finished-at="2016-04-02T20:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="verifyAccessoriesTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyAccessoriesTab" duration-ms="67" started-at="2016-04-02T20:00:38Z" finished-at="2016-04-02T20:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccessoriesTab -->
+        <test-method status="PASS" signature="verifyBasketBtn()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyBasketBtn" duration-ms="58" started-at="2016-04-02T20:00:38Z" finished-at="2016-04-02T20:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasketBtn -->
+        <test-method status="PASS" signature="verifyBedroomTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyBedroomTab" duration-ms="86" started-at="2016-04-02T20:00:38Z" finished-at="2016-04-02T20:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBedroomTab -->
+        <test-method status="PASS" signature="verifyChairsTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyChairsTab" duration-ms="82" started-at="2016-04-02T20:00:38Z" finished-at="2016-04-02T20:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChairsTab -->
+        <test-method status="PASS" signature="verifyEmailId()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyEmailId" duration-ms="17041" started-at="2016-04-02T20:00:38Z" finished-at="2016-04-02T20:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailId -->
+        <test-method status="PASS" signature="verifyJoinBtn()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyJoinBtn" duration-ms="45" started-at="2016-04-02T20:00:55Z" finished-at="2016-04-02T20:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJoinBtn -->
+        <test-method status="PASS" signature="verifyKidsTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyKidsTab" duration-ms="49" started-at="2016-04-02T20:00:56Z" finished-at="2016-04-02T20:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKidsTab -->
+        <test-method status="FAIL" signature="verifyLast_ChanceTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyLast_ChanceTab" duration-ms="28" started-at="2016-04-02T20:00:56Z" finished-at="2016-04-02T20:00:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='nav-last-chance']/a/span"}
+  (Session info: chrome=49.0.2623.75)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.19.0-51-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'aparna-pc', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-51-generic', java.version: '1.8.0_74'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/tmp/.com.google.Chrome.xhloko}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.75, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ba2b4622be5ca478b69a6108ed8edaa6
+*** Element info: {Using=xpath, value=.//*[@id='nav-last-chance']/a/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='nav-last-chance']/a/span"}
+  (Session info: chrome=49.0.2623.75)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.19.0-51-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'aparna-pc', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-51-generic', java.version: '1.8.0_74'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/tmp/.com.google.Chrome.xhloko}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.75, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ba2b4622be5ca478b69a6108ed8edaa6
+*** Element info: {Using=xpath, value=.//*[@id='nav-last-chance']/a/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at AppPackage.HomePage.Last_ChanceTab(HomePage.java:92)
+	at AppPackage.Main_file.verifyLast_ChanceTab(Main_file.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLast_ChanceTab -->
+        <test-method status="PASS" signature="verifyLightingTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyLightingTab" duration-ms="48" started-at="2016-04-02T20:00:56Z" finished-at="2016-04-02T20:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLightingTab -->
+        <test-method status="PASS" signature="verifyLoginBtn()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyLoginBtn" duration-ms="39" started-at="2016-04-02T20:00:56Z" finished-at="2016-04-02T20:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtn -->
+        <test-method status="PASS" signature="verifyLoginFunctionality()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyLoginFunctionality" duration-ms="8421" started-at="2016-04-02T20:00:56Z" finished-at="2016-04-02T20:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method status="PASS" signature="verifyMadeLogo()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyMadeLogo" duration-ms="686" started-at="2016-04-02T20:01:04Z" finished-at="2016-04-02T20:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMadeLogo -->
+        <test-method status="PASS" signature="verifyNewTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyNewTab" duration-ms="42" started-at="2016-04-02T20:01:05Z" finished-at="2016-04-02T20:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewTab -->
+        <test-method status="PASS" signature="verifyOutdoorTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyOutdoorTab" duration-ms="41" started-at="2016-04-02T20:01:05Z" finished-at="2016-04-02T20:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOutdoorTab -->
+        <test-method status="PASS" signature="verifySofasTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifySofasTab" duration-ms="43" started-at="2016-04-02T20:01:05Z" finished-at="2016-04-02T20:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySofasTab -->
+        <test-method status="PASS" signature="verifyStorageTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyStorageTab" duration-ms="39" started-at="2016-04-02T20:01:05Z" finished-at="2016-04-02T20:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStorageTab -->
+        <test-method status="PASS" signature="verifyTablesTab()[pri:0, instance:AppPackage.Main_file@256216b3]" name="verifyTablesTab" duration-ms="42" started-at="2016-04-02T20:01:05Z" finished-at="2016-04-02T20:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTablesTab -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AppPackage.Main_file@256216b3]" name="closebrowser" is-config="true" duration-ms="211" started-at="2016-04-02T20:01:05Z" finished-at="2016-04-02T20:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AppPackage.Main_file -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
